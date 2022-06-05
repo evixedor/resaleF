@@ -1,36 +1,18 @@
-import Directory from "./components/directory/directory.component";
+import { Routes, Route } from "react-router-dom";
+
+import HomePage from "./routes/homepage/homepage.component";
+import ShopPage from "./routes/shop/shop.component.jsx";
+import Navigation from "./routes/navigation/navigation.component.jsx";
 
 const App = () => {
-	// creating the model to reflect the apps object properties
-	const categories = [
-		{
-			id: 1,
-			title: "hat",
-			imageUrl: "https://i.ibb.co/cvpntL1/hats.png",
-		},
-		{
-			id: 2,
-			title: "jacket",
-			imageUrl: "https://i.ibb.co/px2tCc3/jackets.png",
-		},
-		{
-			id: 3,
-			title: "sneaker",
-			imageUrl: "https://i.ibb.co/0jqHpnp/sneakers.png",
-		},
-		{
-			id: 4,
-			title: "women",
-			imageUrl: "https://i.ibb.co/GCCdy8t/womens.png",
-		},
-		{
-			id: 5,
-			title: "men",
-			imageUrl: "https://i.ibb.co/R70vBrQ/men.png",
-		},
-	];
-
-	return <Directory categories={categories} />;
+	return (
+		<Routes>
+			<Route path="/" element={<Navigation />}>
+				<Route index element={<HomePage />} />
+				<Route path="/shop" element={<ShopPage />} />
+			</Route>
+		</Routes>
+	);
 };
 
 export default App;
