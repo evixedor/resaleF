@@ -16,6 +16,6 @@ a {
   color: black;
 }
 
-* { // accounts for padding being included in width and height or so that padding do not throw off your dimensions
+* { // accounts for padding being included in width and height \ so that padding do not throw off your dimensions
   box-sizing: border-box;
 }
