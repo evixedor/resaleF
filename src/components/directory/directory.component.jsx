@@ -1,15 +1,49 @@
-import DirectoryItem from "../directory-item/directory-item.component";
+import DirectoryItem from '../directory-item/directory-item.component';
 
-import "./directory.styles.scss";
+import { DirectoryContainer } from './directory.styles';
 
-const Directory = ({ categories }) => {
-	return (
-		<div className="directory-container">
-			{categories.map((category) => (
-				<DirectoryItem key={category.id} category={category} />
-			))}
-		</div>
-	);
+const categories = [
+  {
+    id: 1,
+    title: "hat",
+    imageUrl: "https://i.ibb.co/cvpntL1/hats.png",
+    routeName: 'shop/hat'
+  },
+  {
+    id: 2,
+    title: "jacket",
+    imageUrl: "https://i.ibb.co/px2tCc3/jackets.png",
+    routeName: 'shop/jacket'
+  },
+  {
+    id: 3,
+    title: "sneaker",
+    imageUrl: "https://i.ibb.co/0jqHpnp/sneakers.png",
+    routeName: 'shop/sneaker'
+  },
+  {
+    id: 4,
+    title: "women",
+    imageUrl: "https://i.ibb.co/GCCdy8t/womens.png",
+    routeName: 'shop/women'
+  },
+  {
+    id: 5,
+    title: "men",
+    imageUrl: "https://i.ibb.co/R70vBrQ/men.png",
+    routeName: 'shop/men'
+  },
+];
+
+const Directory = () => {
+  
+  return (
+    <DirectoryContainer>
+      {categories.map((category) => (
+        <DirectoryItem key={category.id} category={category} />
+      ))}
+    </DirectoryContainer>
+  );
 };
 
 export default Directory;
