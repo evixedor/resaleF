@@ -7,7 +7,8 @@ const HomePage = () => {
     <div>
 			<Directory />
 			<Outlet />
-    </div>)
+		</div>
+	);
 };
 
 export default HomePage; 
