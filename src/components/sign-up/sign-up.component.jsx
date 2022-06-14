@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 import FormInput from "../../components/form-input/form-input.component";
-import Button from "../../components/button/button.component";
+import Button from "../button/button.component";
 import {
   createUserDocumentFromAuth,
   createAuthUserWithEmailAndPassword,
@@ -60,8 +60,8 @@ const SignUp = () => {
 
   return (
     <div className="sign-up-container">
-      <h2>I do not have an account?</h2>
-      <span>Sign Up with your email and password</span>
+      <h2>Don't have an account?</h2>
+      <span>Sign up with your email and password</span>
       <form onSubmit={handleSubmit}>
         <FormInput
           label="Display Name"
