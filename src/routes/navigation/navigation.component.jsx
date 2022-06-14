@@ -23,9 +23,6 @@ const Navigation = () => {
           <RfLogo className="logo" />
         </Link>
         <div className="nav-links-container">
-          <Link className="nav-link" to="/contact">
-            CONTACT
-          </Link>
           <Link className="nav-link" to="/shop">
             SHOP
           </Link>
