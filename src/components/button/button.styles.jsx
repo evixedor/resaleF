@@ -17,6 +17,7 @@ export const BaseButton = styled.button`
   cursor: pointer;
   display: flex;
   justify-content: center;
+  font-size: 10px;
 
   &:hover {
     background-color: white;
