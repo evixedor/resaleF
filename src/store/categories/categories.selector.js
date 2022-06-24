@@ -1,13 +1,13 @@
 import { createSelector } from 'reselect';
 
-const selectCategoryReducer = (state) => state.categories;
+const selectCategoriesReducer = (state) => state.categories; // state is the entire redux state and .categories is a slice of it
 
-export const selectCategories = createSelector(
-  [selectCategoryReducer],
+export const selectCategories = createSelector( // this gives us the categories array that resides on the categories slice of the redux state
+  [selectCategoriesReducer],
   (categoriesSlice) => categoriesSlice.categories
-);
+); // memoizedSelcetor([inputSelctors], outputSelector)
 
-// a selector transforming the the categories array into a map object
+// a selector transforming the categories array into a map object
 export const selectCategoriesMap = createSelector(
   [selectCategories],
   (categories) =>

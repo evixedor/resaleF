@@ -3,9 +3,11 @@
 An E-Commerce website created using React.
 
 Structure of Application CODE
-- ASSETS - 
-- COMPONENTS - 
-- CONTEXTS - state management
-- ROUTES - navigation pages
-- STORE - contains redux code
-- UTILS - database management
+
+const * = 'a folder containing the';
+  - ASSETS - *
+  - COMPONENTS - * different components of the application
+  - ROUTES - * routes/navigation pages
+  - STORE - * redux / state management files
+  - UTILS - * database management files
+
