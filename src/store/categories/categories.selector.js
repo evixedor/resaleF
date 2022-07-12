@@ -5,7 +5,7 @@ const selectCategoriesReducer = (state) => state.categories; // state is the ent
 export const selectCategories = createSelector( // this gives us the categories array that resides on the categories slice of the redux state
   [selectCategoriesReducer],
   (categoriesSlice) => categoriesSlice.categories
-); // memoizedSelcetor([inputSelctors], outputSelector)
+); // memoizedSelector([inputSelectors], outputSelector)
 
 // a selector transforming the categories array into a map object
 export const selectCategoriesMap = createSelector(
