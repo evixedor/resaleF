@@ -1,7 +1,8 @@
-const SHOP_DATA = [
+const SHOP_DATA = [ // list of objects - where an object is the container for the format or structure of the element to be worked with
   {
+    id: 1,
     title: 'Hats',
-    items: [
+    items: [ // list of objects
       {
         id: 1,
         name: 'Brown Brim',
@@ -59,6 +60,7 @@ const SHOP_DATA = [
     ],
   },
   {
+    id: 2,
     title: 'Sneakers',
     items: [
       {
