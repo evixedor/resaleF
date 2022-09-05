@@ -40,7 +40,7 @@ const PaymentForm = () => {
 
 		const cardDetails = elements.getElement(CardElement);
 
-    if (!ifValidCardElement(cardDetails)) return;
+    if (!ifValidCardElement(cardDetails)) return; // type predicate
 
 		const clientSecret = response.paymentIntent.client_secret; // indicator of the confirmation from the stripe db registering the payment intent
 
