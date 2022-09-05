@@ -3,9 +3,9 @@ import { Routes, Route } from "react-router-dom";
 import { useDispatch } from "react-redux";
 
 import HomePage from "./routes/homepage/homepage.component";
-import Navigation from "./routes/navigation/navigation.component.jsx";
+import Navigation from "./routes/navigation/navigation.component";
 import Authentication from "./routes/authentication/authentication.component";
-import ShopPage from "./routes/shop/shop.component.jsx";
+import ShopPage from "./routes/shop/shop.component";
 import Checkout from "./routes/checkout/checkout.component";
 
 import { checkUserSession } from "./store/user/user.action";
