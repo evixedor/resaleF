@@ -115,7 +115,7 @@ export const createUserDocumentFromAuth = async (
 		}
 	}
 
-	return userSnapshot as QueryDocumentSnapshot<UserData>; // casting a 
+	return userSnapshot as QueryDocumentSnapshot<UserData>; // casting a type
 };
 
 export const createAuthUserWithEmailAndPassword = async (email: string, password: string) => {

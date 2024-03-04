@@ -50,6 +50,10 @@ const clearCartItem = (
 ): CartItem[] =>
 	cartItems.filter((cartItem) => cartItem.id !== cartItemToClear.id);
 
+const clearCartItems = ( 
+	cartItems: CartItem[]
+): CartItem[] => cartItems.filter((cartItems) => cartItems.id );
+
 // defining each of our actions as a type
 export type SetIsCartOpen = ActionWithPayload<CART_ACTION_TYPES.SET_IS_CART_OPEN, boolean>;
 
@@ -75,3 +79,8 @@ export const clearItemFromCart = (cartItems: CartItem[], cartItemToClear: CartIt
 	const newCartItems = clearCartItem(cartItems, cartItemToClear);
 	return setCartItems(newCartItems);
 };
+
+export const clearItemsFromCart = (cartItems:CartItem[]) => {
+	const newCartItems = clearCartItems(cartItems)
+	return setCartItems(newCartItems);
+}
