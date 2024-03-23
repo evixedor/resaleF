@@ -48,7 +48,6 @@ export const signInWithGooglePopup = () =>
 	signInWithPopup(auth, googleProvider);
 export const signInWithGoogleRedirect = () =>
 	signInWithRedirect(auth, googleProvider);
-
 export const db = getFirestore(); // creating the database
 
 export type ObjectToAdd = {
