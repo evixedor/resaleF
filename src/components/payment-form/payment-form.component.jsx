@@ -14,7 +14,7 @@ import {
 const PaymentForm = () => {
 	const stripe = useStripe();
 	const elements = useElements();
-	const { cartTotal } = useContext(CartContext);
+	const { cartTotal, clearItemFromCart, cartItems } = useContext(CartContext);
 	const { currentUser } = useContext(UserContext);
 	const [isProcessingPayment, setIsProcessingPayment] = useState(false);
 
@@ -58,7 +58,7 @@ const PaymentForm = () => {
 
 	return (
 		<FormContainer onSubmit={paymentHandler}>
-			<h2>Credit Card Payment:</h2>
+			<h2>Credit Card Payment: Use 4242 4242 4242 4242 04/28 424 42424</h2>
 			<CardElement />
 			<PaymentButton
 				buttonType={BUTTON_TYPE_CLASSES.inverted}

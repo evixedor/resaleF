@@ -27,6 +27,7 @@ export const CategoriesProvider = ({ children }) => {
 
 	console.log("loading", loading)
   console.log("data", data)
+	console.log("error1", error)
 
 	useEffect(() => {
 		const getCategoriesMap = async () => {
