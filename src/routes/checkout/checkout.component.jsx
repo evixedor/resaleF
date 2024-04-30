@@ -1,6 +1,7 @@
 import { useContext } from 'react';
 
 import { CartContext } from '../../contexts/cart.context';
+import Footer from '../../components/footer/footer.component';
 
 import CheckoutItem from '../../components/checkout-item/checkout-item.component';
 import PaymentForm from "../../components/payment-form/payment-form.component";
@@ -39,6 +40,8 @@ const Checkout = () => {
       ))}
       <Total>Total: ${cartTotal}</Total>
       <PaymentForm />
+      <Footer />
+
     </CheckoutContainer>
   );
 };
