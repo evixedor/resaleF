@@ -39,21 +39,20 @@ const Directory = () => {
 	return (
 		<DirectoryContainer>
 			{
-				<section className="video-ad">
+				<section className="videoHero-videoContainer">
 					<video
 						controls
 						loop
-						src="https://www.canva.com/design/DAGDKVqLJ-s/fOpZNhsW-lfWV4Ohm1a22g/watch?utm_content=DAGDKVqLJ-s&utm_campaign=designshare&utm_medium=link&utm_source=editor"
+						src="https://video.asos-media.com/Navigation/_content_UK_DESKTOPHERO_WW_2880x1000-redpen_Flash9_2560xAuto_5000K.mp4"
 						poster="https://i.ibb.co/9NKJ7S1/Resale-fortune.png"
-						width="100%"
 						height="322"
+						width="100%"
 					>
 						Sorry, your browser doesn't support embedded videos, but don't
 						worry, you can
 						<a href="https://streamable.com/juhhx8">download it</a>
 						and watch it with your favorite video player!
 					</video>
-					<img src="https://www.canva.com/design/DAGDKVqLJ-s/fOpZNhsW-lfWV4Ohm1a22g/watch?utm_content=DAGDKVqLJ-s&utm_campaign=designshare&utm_medium=link&utm_source=editor"></img>
 				</section>
 			}
 			

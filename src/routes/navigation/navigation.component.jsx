@@ -77,20 +77,26 @@ const Navigation = () => {
 					<div className="mainHeader">
 						<div className="headerWrapper">
 							<div className="aHeader">
+
 								<div className="left-body">
+
 									<LogoContainer to="/">
 										<RfLogo className="logo" />
 									</LogoContainer>
+								
 									<ul className="navContainer bodyText">
 										<li>
-											<a href="/shop" data-gender="men" className="button ">
+											<a href="/shop" className="button ">
 												SHOP
 											</a>
 										</li>
 										<li>
-											<a href="" className="button" data-gender="women">ESSENTIALS</a>
+											<a className="button" >
+												ESSENTIALS
+											</a>
 										</li>
 									</ul>
+								
 									<SearchForm>
 										<div
 											className="search-overlay-shadow"
@@ -155,6 +161,7 @@ const Navigation = () => {
 											</div>
 										</form>
 									</SearchForm>
+
 								</div>
 
 								<ul className="widgets">
@@ -166,6 +173,7 @@ const Navigation = () => {
 
 									<CartIcon />
 								</ul>
+
 							</div>
 						</div>
 					</div>
@@ -176,196 +184,1553 @@ const Navigation = () => {
 					<div>
 						<nav className="kontainer">
 							<div className="navigation">
-								<div className="navButtons">
+								<div className=" navButtons">
 
-									<button className="navButton bodyText">
-										<span className="navButton__label">
-											<span>New in</span>
-										</span>
-									</button>
-									<div className="secondaryNav">
+									<div className="_aa">
+										<button className=" navButton bodyText">
+											<span className=" navButton__label">
+												<span className="">New in</span>
+											</span>
+										</button>
+										<div className="secondaryNav">
 
-										<div className="backdrop"></div>
-										<div className="flyoutContainer">
-											<div className="flyout">
+											<div className="backdrop"></div>
+											<div className="flyoutContainer">
+												<div className="flyout">
 
-												<div className="colspan-1 column">
+													<div className="colspan-1 column">
 
-													<h2 className="columnHeader">
-														<span>New products</span>
-													</h2>
+														<h2 className="columnHeader">
+															<span>New products</span>
+														</h2>
 
-													<ul className="textList">
+														<ul className="textList">
 
-														<li>
-															<a>View all</a>
-														</li>
+															<li>
+																<a>View all</a>
+															</li>
 
-														<li>
-															<a>Clothing</a>
-														</li>
+															<li>
+																<a>Clothing</a>
+															</li>
 
-														<li>
-															<a>Shoes</a>
-														</li>
+															<li>
+																<a>Shoes</a>
+															</li>
 
-														<li>
-															<a>New in: Today</a>
-														</li>
+															<li>
+																<a>New in: Today</a>
+															</li>
 
-														<li>
-															<a>New in: Selling Fast</a>
-														</li>
+															<li>
+																<a>New in: Selling Fast</a>
+															</li>
+														
+														</ul>
+													</div>
 													
-													</ul>
-												</div>
-												
-												<div className="colspan-1 column">
+													<div className="colspan-1 column">
 
-													<h2 className="columnHeader">
-														<span>Shop spring</span>
-													</h2>
+														<h2 className="columnHeader">
+															<span>Shop spring</span>
+														</h2>
 
-													<ul className="textList circleImageLink">
+														<ul className="textList circleImageLink">
 
-														<li className="circleImageLink">
-															<a href="">
+															<li className="circleImageLink">
+																<a href="">
 
-																<div className="circleImageBorder">
-																	<div className="circleImage _a"></div>
-																</div>
+																	<div className="circleImageBorder">
+																		<div className="circleImage _a"></div>
+																	</div>
 
-																<div className="labelContainer" >
-																	<span className="label link bodyText">Spring Outfits</span>
-																</div>
+																	<div className="labelContainer" >
+																		<span className="label link bodyText">Spring Outfits</span>
+																	</div>
+																
+																</a>
+															</li>
+
+															<li>
+																<a>Brunch Outfits</a>
+															</li>
 															
-															</a>
-														</li>
-
-														<li>
-															<a>Brunch Outfits</a>
-														</li>
+															<li>
+																<a>Sundresses</a>
+															</li>
+															
+															<li>
+																<a>Occasional Wear</a>
+															</li>
+															
+															<li>
+																<a>Linen</a>
+															</li>
 														
-														<li>
-															<a>Sundresses</a>
-														</li>
+														</ul>
+													</div>
+
+													<div className="colspan-1 column">
+														<h2 className="columnHeader">
+															<span>Your Most Hyped</span>
+														</h2>
+														<ul className="textList">
+															<li>
+																<a>View all</a>
+															</li>
+															<li>
+																<a>Tops</a>
+															</li>
+															<li>
+																<a>Dresses</a>
+															</li>
+															<li>
+																<a>Knits and Sweats</a>
+															</li>
+															<li>
+																<a>Skirts</a>
+															</li>
 														
-														<li>
-															<a>Occasional Wear</a>
-														</li>
+														</ul>
+													</div>
+
+													<div className="colspan-1 column">
+														<h2 className="columnHeader">
+															<span>New edits</span>
+														</h2>
+														<ul className="textList">
+															<li>
+																<a>Mediterranan Summer</a>
+															</li>
+															<li>
+																<a>Swim and Beach</a>
+															</li>
 														
-														<li>
-															<a>Linen</a>
-														</li>
-													
-													</ul>
-												</div>
+														</ul>
+													</div>
 
-												<div className="colspan-1 column">
-													<h2 className="columnHeader">
-														<span>Your Most Hyped</span>
-													</h2>
-													<ul className="textList">
-														<li>
-															<a>View all</a>
-														</li>
-														<li>
-															<a>Tops</a>
-														</li>
-														<li>
-															<a>Dresses</a>
-														</li>
-														<li>
-															<a>Knits and Sweats</a>
-														</li>
-														<li>
-															<a>Skirts</a>
-														</li>
-													
-													</ul>
 												</div>
-
-												<div className="colspan-1 column">
-													<h2 className="columnHeader">
-														<span>New edits</span>
-													</h2>
-													<ul className="textList">
-														<li>
-															<a>Mediterranan Summer</a>
-														</li>
-														<li>
-															<a>Swim and Beach</a>
-														</li>
-													
-													</ul>
-												</div>
-
 											</div>
-										</div>
 
+										</div>
+									
 									</div>
 
-									<button className="navButton bodyText">
-										<span className="navButton__label">
-											<span>Clothing</span>
-										</span>
-									</button>
-									<button className="navButton bodyText">
-										<span className="navButton__label">
-											<span>Trending</span>
-										</span>
-									</button>
-									<button className="navButton bodyText">
-										<span className="navButton__label">
-											<span>Dresses</span>
-										</span>
-									</button>
-									<button className="navButton bodyText">
-										<span className="navButton__label">
-											<span>Shoes</span>
-										</span>
-									</button>
-									<button className="navButton bodyText">
-										<span className="navButton__label">
-											<span>Assesories</span>
-										</span>
-									</button>
-									<button className="navButton bodyText">
-										<span className="navButton__label">
-											<span>Face + Body</span>
-										</span>
-									</button>
-									<button className="navButton bodyText">
-										<span className="navButton__label">
-											<span>Brands</span>
-										</span>
-									</button>
-									<button className="navButton bodyText">
-										<span className="navButton__label">
-											<span>Sportswear</span>
-										</span>
-									</button>
-									<button className="navButton bodyText">
-										<span className="navButton__label">
-											<span>Topshop</span>
-										</span>
-									</button>
-									<button className="navButton bodyText">
-										<span className="navButton__label">
-											<span>Marketplace</span>
-										</span>
-									</button>
-									<button className="navButton bodyText">
-										<span className="navButton__label">
-											<span>Sale</span>
-										</span>
-									</button>
-									<button className="navButton bodyText">
-										<span className="navButton__label">
-											<span>Credit Card</span>
-										</span>
-									</button>
-						
+									<div className="_aa">
+										<button className="navButton bodyText">
+											<span className="navButton__label">
+												<span>Clothing</span>
+											</span>
+										</button>
+										<div className="secondaryNav">
+
+											<div className="backdrop"></div>
+											<div className="flyoutContainer">
+												<div className="flyout">
+
+													<div className="colspan-2 column">
+
+														<h2 className="columnHeader">
+															<span>Shop by Products</span>
+														</h2>
+
+														<ul className="textList">
+
+															<li>
+																<a>Top Rated Clothing</a>
+															</li>
+
+															<li>
+																<a>Exclusives at Resale Fortuune</a>
+															</li>
+
+															<li>
+																<a>Bestsellers</a>
+															</li>
+
+															<li>
+																<a>New in: Today</a>
+															</li>
+
+															<li>
+																<a>New in: Selling Fast</a>
+															</li>
+														
+														</ul>
+													</div>
+													
+													<div className="colspan-1 column">
+
+														<h2 className="columnHeader">
+															<span>Shop By Body Fit</span>
+														</h2>
+
+														<ul className="textList circleImageLink">
+
+															<li className="circleImageLink">
+																<a href="">
+
+																	<div className="circleImageBorder">
+																		<div className="circleImage _a"></div>
+																	</div>
+
+																	<div className="labelContainer" >
+																		<span className="label link bodyText">Spring Outfits</span>
+																	</div>
+																
+																</a>
+															</li>
+
+															<li>
+																<a>Brunch Outfits</a>
+															</li>
+															
+															<li>
+																<a>Sundresses</a>
+															</li>
+															
+															<li>
+																<a>Occasional Wear</a>
+															</li>
+															
+															<li>
+																<a>Linen</a>
+															</li>
+														
+														</ul>
+													</div>
+
+													<div className="colspan-1 column">
+														<h2 className="columnHeader">
+															<span>Shop by Edit</span>
+														</h2>
+														<ul className="textList">
+															<li>
+																<a>View all</a>
+															</li>
+															<li>
+																<a>Tops</a>
+															</li>
+															<li>
+																<a>Dresses</a>
+															</li>
+															<li>
+																<a>Knits and Sweats</a>
+															</li>
+															<li>
+																<a>Skirts</a>
+															</li>
+														
+														</ul>
+													</div>
+
+												</div>
+											</div>
+
+										</div>
+									
+									</div>
+
+									<div className="_aa">
+										<button className="navButton bodyText">
+											<span className="navButton__label">
+												<span>Trending</span>
+											</span>
+										</button>
+										<div className="secondaryNav">
+
+											<div className="backdrop"></div>
+											<div className="flyoutContainer">
+												<div className="flyout">
+
+													<div className="colspan-1 column">
+
+														<h2 className="columnHeader">
+															<span>New products</span>
+														</h2>
+
+														<ul className="textList">
+
+															<li>
+																<a>View all</a>
+															</li>
+
+															<li>
+																<a>Clothing</a>
+															</li>
+
+															<li>
+																<a>Shoes</a>
+															</li>
+
+															<li>
+																<a>New in: Today</a>
+															</li>
+
+															<li>
+																<a>New in: Selling Fast</a>
+															</li>
+														
+														</ul>
+													</div>
+													
+													<div className="colspan-1 column">
+
+														<h2 className="columnHeader">
+															<span>Shop spring</span>
+														</h2>
+
+														<ul className="textList circleImageLink">
+
+															<li className="circleImageLink">
+																<a href="">
+
+																	<div className="circleImageBorder">
+																		<div className="circleImage _a"></div>
+																	</div>
+
+																	<div className="labelContainer" >
+																		<span className="label link bodyText">Spring Outfits</span>
+																	</div>
+																
+																</a>
+															</li>
+
+															<li>
+																<a>Brunch Outfits</a>
+															</li>
+															
+															<li>
+																<a>Sundresses</a>
+															</li>
+															
+															<li>
+																<a>Occasional Wear</a>
+															</li>
+															
+															<li>
+																<a>Linen</a>
+															</li>
+														
+														</ul>
+													</div>
+
+													<div className="colspan-1 column">
+														<h2 className="columnHeader">
+															<span>Your Most Hyped</span>
+														</h2>
+														<ul className="textList">
+															<li>
+																<a>View all</a>
+															</li>
+															<li>
+																<a>Tops</a>
+															</li>
+															<li>
+																<a>Dresses</a>
+															</li>
+															<li>
+																<a>Knits and Sweats</a>
+															</li>
+															<li>
+																<a>Skirts</a>
+															</li>
+														
+														</ul>
+													</div>
+
+													<div className="colspan-1 column">
+														<h2 className="columnHeader">
+															<span>New edits</span>
+														</h2>
+														<ul className="textList">
+															<li>
+																<a>Mediterranan Summer</a>
+															</li>
+															<li>
+																<a>Swim and Beach</a>
+															</li>
+														
+														</ul>
+													</div>
+
+												</div>
+											</div>
+
+										</div>
+									
+									</div>
+									
+									<div className="_aa">
+										<button className="navButton bodyText">
+											<span className="navButton__label">
+												<span>Dresses</span>
+											</span>
+										</button>
+										<div className="secondaryNav">
+
+											<div className="backdrop"></div>
+											<div className="flyoutContainer">
+												<div className="flyout">
+
+													<div className="colspan-1 column">
+
+														<h2 className="columnHeader">
+															<span>New products</span>
+														</h2>
+
+														<ul className="textList">
+
+															<li>
+																<a>View all</a>
+															</li>
+
+															<li>
+																<a>Clothing</a>
+															</li>
+
+															<li>
+																<a>Shoes</a>
+															</li>
+
+															<li>
+																<a>New in: Today</a>
+															</li>
+
+															<li>
+																<a>New in: Selling Fast</a>
+															</li>
+														
+														</ul>
+													</div>
+													
+													<div className="colspan-1 column">
+
+														<h2 className="columnHeader">
+															<span>Shop spring</span>
+														</h2>
+
+														<ul className="textList circleImageLink">
+
+															<li className="circleImageLink">
+																<a href="">
+
+																	<div className="circleImageBorder">
+																		<div className="circleImage _a"></div>
+																	</div>
+
+																	<div className="labelContainer" >
+																		<span className="label link bodyText">Spring Outfits</span>
+																	</div>
+																
+																</a>
+															</li>
+
+															<li>
+																<a>Brunch Outfits</a>
+															</li>
+															
+															<li>
+																<a>Sundresses</a>
+															</li>
+															
+															<li>
+																<a>Occasional Wear</a>
+															</li>
+															
+															<li>
+																<a>Linen</a>
+															</li>
+														
+														</ul>
+													</div>
+
+													<div className="colspan-1 column">
+														<h2 className="columnHeader">
+															<span>Your Most Hyped</span>
+														</h2>
+														<ul className="textList">
+															<li>
+																<a>View all</a>
+															</li>
+															<li>
+																<a>Tops</a>
+															</li>
+															<li>
+																<a>Dresses</a>
+															</li>
+															<li>
+																<a>Knits and Sweats</a>
+															</li>
+															<li>
+																<a>Skirts</a>
+															</li>
+														
+														</ul>
+													</div>
+
+													<div className="colspan-1 column">
+														<h2 className="columnHeader">
+															<span>New edits</span>
+														</h2>
+														<ul className="textList">
+															<li>
+																<a>Mediterranan Summer</a>
+															</li>
+															<li>
+																<a>Swim and Beach</a>
+															</li>
+														
+														</ul>
+													</div>
+
+												</div>
+											</div>
+
+										</div>
+									
+									</div>
+
+									<div className="_aa">
+										<button className="navButton bodyText">
+											<span className="navButton__label">
+												<span>Shoes</span>
+											</span>
+										</button>
+										<div className="secondaryNav">
+
+											<div className="backdrop"></div>
+											<div className="flyoutContainer">
+												<div className="flyout">
+
+													<div className="colspan-1 column">
+
+														<h2 className="columnHeader">
+															<span>New products</span>
+														</h2>
+
+														<ul className="textList">
+
+															<li>
+																<a>View all</a>
+															</li>
+
+															<li>
+																<a>Clothing</a>
+															</li>
+
+															<li>
+																<a>Shoes</a>
+															</li>
+
+															<li>
+																<a>New in: Today</a>
+															</li>
+
+															<li>
+																<a>New in: Selling Fast</a>
+															</li>
+														
+														</ul>
+													</div>
+													
+													<div className="colspan-1 column">
+
+														<h2 className="columnHeader">
+															<span>Shop spring</span>
+														</h2>
+
+														<ul className="textList circleImageLink">
+
+															<li className="circleImageLink">
+																<a href="">
+
+																	<div className="circleImageBorder">
+																		<div className="circleImage _a"></div>
+																	</div>
+
+																	<div className="labelContainer" >
+																		<span className="label link bodyText">Spring Outfits</span>
+																	</div>
+																
+																</a>
+															</li>
+
+															<li>
+																<a>Brunch Outfits</a>
+															</li>
+															
+															<li>
+																<a>Sundresses</a>
+															</li>
+															
+															<li>
+																<a>Occasional Wear</a>
+															</li>
+															
+															<li>
+																<a>Linen</a>
+															</li>
+														
+														</ul>
+													</div>
+
+													<div className="colspan-1 column">
+														<h2 className="columnHeader">
+															<span>Your Most Hyped</span>
+														</h2>
+														<ul className="textList">
+															<li>
+																<a>View all</a>
+															</li>
+															<li>
+																<a>Tops</a>
+															</li>
+															<li>
+																<a>Dresses</a>
+															</li>
+															<li>
+																<a>Knits and Sweats</a>
+															</li>
+															<li>
+																<a>Skirts</a>
+															</li>
+														
+														</ul>
+													</div>
+
+													<div className="colspan-1 column">
+														<h2 className="columnHeader">
+															<span>New edits</span>
+														</h2>
+														<ul className="textList">
+															<li>
+																<a>Mediterranan Summer</a>
+															</li>
+															<li>
+																<a>Swim and Beach</a>
+															</li>
+														
+														</ul>
+													</div>
+
+												</div>
+											</div>
+
+										</div>
+									
+									</div>
+
+									<div className="_aa">
+										<button className="navButton bodyText">
+											<span className="navButton__label">
+												<span>Assesories</span>
+											</span>
+										</button>
+										<div className="secondaryNav">
+
+											<div className="backdrop"></div>
+											<div className="flyoutContainer">
+												<div className="flyout">
+
+													<div className="colspan-1 column">
+
+														<h2 className="columnHeader">
+															<span>New products</span>
+														</h2>
+
+														<ul className="textList">
+
+															<li>
+																<a>View all</a>
+															</li>
+
+															<li>
+																<a>Clothing</a>
+															</li>
+
+															<li>
+																<a>Shoes</a>
+															</li>
+
+															<li>
+																<a>New in: Today</a>
+															</li>
+
+															<li>
+																<a>New in: Selling Fast</a>
+															</li>
+														
+														</ul>
+													</div>
+													
+													<div className="colspan-1 column">
+
+														<h2 className="columnHeader">
+															<span>Shop spring</span>
+														</h2>
+
+														<ul className="textList circleImageLink">
+
+															<li className="circleImageLink">
+																<a href="">
+
+																	<div className="circleImageBorder">
+																		<div className="circleImage _a"></div>
+																	</div>
+
+																	<div className="labelContainer" >
+																		<span className="label link bodyText">Spring Outfits</span>
+																	</div>
+																
+																</a>
+															</li>
+
+															<li>
+																<a>Brunch Outfits</a>
+															</li>
+															
+															<li>
+																<a>Sundresses</a>
+															</li>
+															
+															<li>
+																<a>Occasional Wear</a>
+															</li>
+															
+															<li>
+																<a>Linen</a>
+															</li>
+														
+														</ul>
+													</div>
+
+													<div className="colspan-1 column">
+														<h2 className="columnHeader">
+															<span>Your Most Hyped</span>
+														</h2>
+														<ul className="textList">
+															<li>
+																<a>View all</a>
+															</li>
+															<li>
+																<a>Tops</a>
+															</li>
+															<li>
+																<a>Dresses</a>
+															</li>
+															<li>
+																<a>Knits and Sweats</a>
+															</li>
+															<li>
+																<a>Skirts</a>
+															</li>
+														
+														</ul>
+													</div>
+
+													<div className="colspan-1 column">
+														<h2 className="columnHeader">
+															<span>New edits</span>
+														</h2>
+														<ul className="textList">
+															<li>
+																<a>Mediterranan Summer</a>
+															</li>
+															<li>
+																<a>Swim and Beach</a>
+															</li>
+														
+														</ul>
+													</div>
+
+												</div>
+											</div>
+
+										</div>
+									
+									</div>
+
+									<div className="_aa">
+										<button className="navButton bodyText">
+											<span className="navButton__label">
+												<span>Face + Body</span>
+											</span>
+										</button>
+										<div className="secondaryNav">
+
+											<div className="backdrop"></div>
+											<div className="flyoutContainer">
+												<div className="flyout">
+
+													<div className="colspan-1 column">
+
+														<h2 className="columnHeader">
+															<span>New products</span>
+														</h2>
+
+														<ul className="textList">
+
+															<li>
+																<a>View all</a>
+															</li>
+
+															<li>
+																<a>Clothing</a>
+															</li>
+
+															<li>
+																<a>Shoes</a>
+															</li>
+
+															<li>
+																<a>New in: Today</a>
+															</li>
+
+															<li>
+																<a>New in: Selling Fast</a>
+															</li>
+														
+														</ul>
+													</div>
+													
+													<div className="colspan-1 column">
+
+														<h2 className="columnHeader">
+															<span>Shop spring</span>
+														</h2>
+
+														<ul className="textList circleImageLink">
+
+															<li className="circleImageLink">
+																<a href="">
+
+																	<div className="circleImageBorder">
+																		<div className="circleImage _a"></div>
+																	</div>
+
+																	<div className="labelContainer" >
+																		<span className="label link bodyText">Spring Outfits</span>
+																	</div>
+																
+																</a>
+															</li>
+
+															<li>
+																<a>Brunch Outfits</a>
+															</li>
+															
+															<li>
+																<a>Sundresses</a>
+															</li>
+															
+															<li>
+																<a>Occasional Wear</a>
+															</li>
+															
+															<li>
+																<a>Linen</a>
+															</li>
+														
+														</ul>
+													</div>
+
+													<div className="colspan-1 column">
+														<h2 className="columnHeader">
+															<span>Your Most Hyped</span>
+														</h2>
+														<ul className="textList">
+															<li>
+																<a>View all</a>
+															</li>
+															<li>
+																<a>Tops</a>
+															</li>
+															<li>
+																<a>Dresses</a>
+															</li>
+															<li>
+																<a>Knits and Sweats</a>
+															</li>
+															<li>
+																<a>Skirts</a>
+															</li>
+														
+														</ul>
+													</div>
+
+													<div className="colspan-1 column">
+														<h2 className="columnHeader">
+															<span>New edits</span>
+														</h2>
+														<ul className="textList">
+															<li>
+																<a>Mediterranan Summer</a>
+															</li>
+															<li>
+																<a>Swim and Beach</a>
+															</li>
+														
+														</ul>
+													</div>
+
+												</div>
+											</div>
+
+										</div>
+									
+									</div>
+									
+									<div className="_aa">
+										<button className="navButton bodyText">
+											<span className="navButton__label">
+												<span>Brands</span>
+											</span>
+										</button>
+										<div className="secondaryNav">
+
+											<div className="backdrop"></div>
+											<div className="flyoutContainer">
+												<div className="flyout">
+
+													<div className="colspan-1 column">
+
+														<h2 className="columnHeader">
+															<span>New products</span>
+														</h2>
+
+														<ul className="textList">
+
+															<li>
+																<a>View all</a>
+															</li>
+
+															<li>
+																<a>Clothing</a>
+															</li>
+
+															<li>
+																<a>Shoes</a>
+															</li>
+
+															<li>
+																<a>New in: Today</a>
+															</li>
+
+															<li>
+																<a>New in: Selling Fast</a>
+															</li>
+														
+														</ul>
+													</div>
+													
+													<div className="colspan-1 column">
+
+														<h2 className="columnHeader">
+															<span>Shop spring</span>
+														</h2>
+
+														<ul className="textList circleImageLink">
+
+															<li className="circleImageLink">
+																<a href="">
+
+																	<div className="circleImageBorder">
+																		<div className="circleImage _a"></div>
+																	</div>
+
+																	<div className="labelContainer" >
+																		<span className="label link bodyText">Spring Outfits</span>
+																	</div>
+																
+																</a>
+															</li>
+
+															<li>
+																<a>Brunch Outfits</a>
+															</li>
+															
+															<li>
+																<a>Sundresses</a>
+															</li>
+															
+															<li>
+																<a>Occasional Wear</a>
+															</li>
+															
+															<li>
+																<a>Linen</a>
+															</li>
+														
+														</ul>
+													</div>
+
+													<div className="colspan-1 column">
+														<h2 className="columnHeader">
+															<span>Your Most Hyped</span>
+														</h2>
+														<ul className="textList">
+															<li>
+																<a>View all</a>
+															</li>
+															<li>
+																<a>Tops</a>
+															</li>
+															<li>
+																<a>Dresses</a>
+															</li>
+															<li>
+																<a>Knits and Sweats</a>
+															</li>
+															<li>
+																<a>Skirts</a>
+															</li>
+														
+														</ul>
+													</div>
+
+													<div className="colspan-1 column">
+														<h2 className="columnHeader">
+															<span>New edits</span>
+														</h2>
+														<ul className="textList">
+															<li>
+																<a>Mediterranan Summer</a>
+															</li>
+															<li>
+																<a>Swim and Beach</a>
+															</li>
+														
+														</ul>
+													</div>
+
+												</div>
+											</div>
+
+										</div>
+									
+									</div>
+									
+									<div className="_aa">
+										<button className="navButton bodyText">
+											<span className="navButton__label">
+												<span>Sportswear</span>
+											</span>
+										</button>
+										<div className="secondaryNav">
+
+											<div className="backdrop"></div>
+											<div className="flyoutContainer">
+												<div className="flyout">
+
+													<div className="colspan-1 column">
+
+														<h2 className="columnHeader">
+															<span>New products</span>
+														</h2>
+
+														<ul className="textList">
+
+															<li>
+																<a>View all</a>
+															</li>
+
+															<li>
+																<a>Clothing</a>
+															</li>
+
+															<li>
+																<a>Shoes</a>
+															</li>
+
+															<li>
+																<a>New in: Today</a>
+															</li>
+
+															<li>
+																<a>New in: Selling Fast</a>
+															</li>
+														
+														</ul>
+													</div>
+													
+													<div className="colspan-1 column">
+
+														<h2 className="columnHeader">
+															<span>Shop spring</span>
+														</h2>
+
+														<ul className="textList circleImageLink">
+
+															<li className="circleImageLink">
+																<a href="">
+
+																	<div className="circleImageBorder">
+																		<div className="circleImage _a"></div>
+																	</div>
+
+																	<div className="labelContainer" >
+																		<span className="label link bodyText">Spring Outfits</span>
+																	</div>
+																
+																</a>
+															</li>
+
+															<li>
+																<a>Brunch Outfits</a>
+															</li>
+															
+															<li>
+																<a>Sundresses</a>
+															</li>
+															
+															<li>
+																<a>Occasional Wear</a>
+															</li>
+															
+															<li>
+																<a>Linen</a>
+															</li>
+														
+														</ul>
+													</div>
+
+													<div className="colspan-1 column">
+														<h2 className="columnHeader">
+															<span>Your Most Hyped</span>
+														</h2>
+														<ul className="textList">
+															<li>
+																<a>View all</a>
+															</li>
+															<li>
+																<a>Tops</a>
+															</li>
+															<li>
+																<a>Dresses</a>
+															</li>
+															<li>
+																<a>Knits and Sweats</a>
+															</li>
+															<li>
+																<a>Skirts</a>
+															</li>
+														
+														</ul>
+													</div>
+
+													<div className="colspan-1 column">
+														<h2 className="columnHeader">
+															<span>New edits</span>
+														</h2>
+														<ul className="textList">
+															<li>
+																<a>Mediterranan Summer</a>
+															</li>
+															<li>
+																<a>Swim and Beach</a>
+															</li>
+														
+														</ul>
+													</div>
+
+												</div>
+											</div>
+
+										</div>
+									
+									</div>
+									
+									<div className="_aa">
+										<button className="navButton bodyText">
+											<span className="navButton__label">
+												<span>Topshop</span>
+											</span>
+										</button>
+										<div className="secondaryNav">
+
+											<div className="backdrop"></div>
+											<div className="flyoutContainer">
+												<div className="flyout">
+
+													<div className="colspan-1 column">
+
+														<h2 className="columnHeader">
+															<span>New products</span>
+														</h2>
+
+														<ul className="textList">
+
+															<li>
+																<a>View all</a>
+															</li>
+
+															<li>
+																<a>Clothing</a>
+															</li>
+
+															<li>
+																<a>Shoes</a>
+															</li>
+
+															<li>
+																<a>New in: Today</a>
+															</li>
+
+															<li>
+																<a>New in: Selling Fast</a>
+															</li>
+														
+														</ul>
+													</div>
+													
+													<div className="colspan-1 column">
+
+														<h2 className="columnHeader">
+															<span>Shop spring</span>
+														</h2>
+
+														<ul className="textList circleImageLink">
+
+															<li className="circleImageLink">
+																<a href="">
+
+																	<div className="circleImageBorder">
+																		<div className="circleImage _a"></div>
+																	</div>
+
+																	<div className="labelContainer" >
+																		<span className="label link bodyText">Spring Outfits</span>
+																	</div>
+																
+																</a>
+															</li>
+
+															<li>
+																<a>Brunch Outfits</a>
+															</li>
+															
+															<li>
+																<a>Sundresses</a>
+															</li>
+															
+															<li>
+																<a>Occasional Wear</a>
+															</li>
+															
+															<li>
+																<a>Linen</a>
+															</li>
+														
+														</ul>
+													</div>
+
+													<div className="colspan-1 column">
+														<h2 className="columnHeader">
+															<span>Your Most Hyped</span>
+														</h2>
+														<ul className="textList">
+															<li>
+																<a>View all</a>
+															</li>
+															<li>
+																<a>Tops</a>
+															</li>
+															<li>
+																<a>Dresses</a>
+															</li>
+															<li>
+																<a>Knits and Sweats</a>
+															</li>
+															<li>
+																<a>Skirts</a>
+															</li>
+														
+														</ul>
+													</div>
+
+													<div className="colspan-1 column">
+														<h2 className="columnHeader">
+															<span>New edits</span>
+														</h2>
+														<ul className="textList">
+															<li>
+																<a>Mediterranan Summer</a>
+															</li>
+															<li>
+																<a>Swim and Beach</a>
+															</li>
+														
+														</ul>
+													</div>
+
+												</div>
+											</div>
+
+										</div>
+									
+									</div>
+									
+									<div className="_aa">
+										<button className="navButton bodyText">
+											<span className="navButton__label">
+												<span>Marketplace</span>
+											</span>
+										</button>
+										<div className="secondaryNav">
+
+											<div className="backdrop"></div>
+											<div className="flyoutContainer">
+												<div className="flyout">
+
+													<div className="colspan-1 column">
+
+														<h2 className="columnHeader">
+															<span>New products</span>
+														</h2>
+
+														<ul className="textList">
+
+															<li>
+																<a>View all</a>
+															</li>
+
+															<li>
+																<a>Clothing</a>
+															</li>
+
+															<li>
+																<a>Shoes</a>
+															</li>
+
+															<li>
+																<a>New in: Today</a>
+															</li>
+
+															<li>
+																<a>New in: Selling Fast</a>
+															</li>
+														
+														</ul>
+													</div>
+													
+													<div className="colspan-1 column">
+
+														<h2 className="columnHeader">
+															<span>Shop spring</span>
+														</h2>
+
+														<ul className="textList circleImageLink">
+
+															<li className="circleImageLink">
+																<a href="">
+
+																	<div className="circleImageBorder">
+																		<div className="circleImage _a"></div>
+																	</div>
+
+																	<div className="labelContainer" >
+																		<span className="label link bodyText">Spring Outfits</span>
+																	</div>
+																
+																</a>
+															</li>
+
+															<li>
+																<a>Brunch Outfits</a>
+															</li>
+															
+															<li>
+																<a>Sundresses</a>
+															</li>
+															
+															<li>
+																<a>Occasional Wear</a>
+															</li>
+															
+															<li>
+																<a>Linen</a>
+															</li>
+														
+														</ul>
+													</div>
+
+													<div className="colspan-1 column">
+														<h2 className="columnHeader">
+															<span>Your Most Hyped</span>
+														</h2>
+														<ul className="textList">
+															<li>
+																<a>View all</a>
+															</li>
+															<li>
+																<a>Tops</a>
+															</li>
+															<li>
+																<a>Dresses</a>
+															</li>
+															<li>
+																<a>Knits and Sweats</a>
+															</li>
+															<li>
+																<a>Skirts</a>
+															</li>
+														
+														</ul>
+													</div>
+
+													<div className="colspan-1 column">
+														<h2 className="columnHeader">
+															<span>New edits</span>
+														</h2>
+														<ul className="textList">
+															<li>
+																<a>Mediterranan Summer</a>
+															</li>
+															<li>
+																<a>Swim and Beach</a>
+															</li>
+														
+														</ul>
+													</div>
+
+												</div>
+											</div>
+
+										</div>
+									
+									</div>
+									
+									<div className="_aa">
+										<button className="navButton bodyText">
+											<span className="navButton__label">
+												<span>Sale</span>
+											</span>
+										</button>
+										<div className="secondaryNav">
+
+											<div className="backdrop"></div>
+											<div className="flyoutContainer">
+												<div className="flyout">
+
+													<div className="colspan-1 column">
+
+														<h2 className="columnHeader">
+															<span>New products</span>
+														</h2>
+
+														<ul className="textList">
+
+															<li>
+																<a>View all</a>
+															</li>
+
+															<li>
+																<a>Clothing</a>
+															</li>
+
+															<li>
+																<a>Shoes</a>
+															</li>
+
+															<li>
+																<a>New in: Today</a>
+															</li>
+
+															<li>
+																<a>New in: Selling Fast</a>
+															</li>
+														
+														</ul>
+													</div>
+													
+													<div className="colspan-1 column">
+
+														<h2 className="columnHeader">
+															<span>Shop spring</span>
+														</h2>
+
+														<ul className="textList circleImageLink">
+
+															<li className="circleImageLink">
+																<a href="">
+
+																	<div className="circleImageBorder">
+																		<div className="circleImage _a"></div>
+																	</div>
+
+																	<div className="labelContainer" >
+																		<span className="label link bodyText">Spring Outfits</span>
+																	</div>
+																
+																</a>
+															</li>
+
+															<li>
+																<a>Brunch Outfits</a>
+															</li>
+															
+															<li>
+																<a>Sundresses</a>
+															</li>
+															
+															<li>
+																<a>Occasional Wear</a>
+															</li>
+															
+															<li>
+																<a>Linen</a>
+															</li>
+														
+														</ul>
+													</div>
+
+													<div className="colspan-1 column">
+														<h2 className="columnHeader">
+															<span>Your Most Hyped</span>
+														</h2>
+														<ul className="textList">
+															<li>
+																<a>View all</a>
+															</li>
+															<li>
+																<a>Tops</a>
+															</li>
+															<li>
+																<a>Dresses</a>
+															</li>
+															<li>
+																<a>Knits and Sweats</a>
+															</li>
+															<li>
+																<a>Skirts</a>
+															</li>
+														
+														</ul>
+													</div>
+
+													<div className="colspan-1 column">
+														<h2 className="columnHeader">
+															<span>New edits</span>
+														</h2>
+														<ul className="textList">
+															<li>
+																<a>Mediterranan Summer</a>
+															</li>
+															<li>
+																<a>Swim and Beach</a>
+															</li>
+														
+														</ul>
+													</div>
+
+												</div>
+											</div>
+
+										</div>
+									
+									</div>
+									
 								</div>
 							</div>
 						</nav>
@@ -373,31 +1738,39 @@ const Navigation = () => {
 
 				</section>
 
-				<section className="banner">
-					<div className="container src-GlobalBanner-Unit-Unit_unitCenter">
-						<a className="src-GlobalBanner-Button-Button_button">WOMEN</a>
-						<button className="src-GlobalBanner-Content-Content_content src-GlobalBanner-Content-Content_contentCenter">
-							<span className="src-GlobalBanner-Content-Content_copy ">
-								<strong>
-									PSST! NEW HERE? Get 10% off almost everything!*
-									<br />
-									With code: HIFRIEND
-								</strong>
-							</span>
-						</button>
-						<div className="src-GlobalBanner-Tooltip-Tooltip_wrapperCenter ">
-							<div className="src-GlobalBanner-Tooltip-Tooltip_tooltip">
-								*Enter code HIFRIEND at checkout to receive discount on first
-								order with a value of over £20. Ends 8am BST on 28 August 2024.
-								Codes can be used on first orders only and up to a maximum
-								pre-discount spend of £500. Valid for New customers orders to
-								the United Kingdom only. Can’t be used with other promo codes or
-								on gift vouchers, delivery charges, Premier Delivery or ASOS
-								Marketplace. Selected marked products excluded from promo.
+				<section className="src-GlobalBanner-GlobalBanner_globalBanner">
+				
+					<div className="src-GlobalBanner-GlobalBanner_loaded">
+						<div className="src-GlobalBanner-Column-Column_column" >
+							<div className="src-GlobalBanner-Unit-Unit_unit src-GlobalBanner-Unit-Unit_unitCenter" >
+
+								<a href="/shop/womens" className="src-GlobalBanner-Button-Button_button">WOMEN</a>
+								<button className="src-GlobalBanner-Content-Content_content src-GlobalBanner-Content-Content_contentCenter">
+									<span className="src-GlobalBanner-Content-Content_copy ">
+										<strong>
+											PSST! NEW HERE? Get 10% off almost everything!*
+											<br />
+											With code: HIFRIEND
+										</strong>
+									</span>
+								</button>
+								<div className="src-GlobalBanner-Tooltip-Tooltip_wrapperCenter ">
+									<div className="src-GlobalBanner-Tooltip-Tooltip_tooltip">
+										*Enter code HIFRIEND at checkout to receive discount on first
+										order with a value of over £20. Ends 8am BST on 28 August 2024.
+										Codes can be used on first orders only and up to a maximum
+										pre-discount spend of £500. Valid for New customers orders to
+										the United Kingdom only. Can’t be used with other promo codes or
+										on gift vouchers, delivery charges, Premier Delivery or ASOS
+										Marketplace. Selected marked products excluded from promo.
+									</div>
+								</div>
+								<a href="/shop/mens" className="src-GlobalBanner-Button-Button_button">MEN</a>
+
 							</div>
 						</div>
-						<a className="src-GlobalBanner-Button-Button_button">MEN</a>
 					</div>
+
 				</section>
 
 				{isDropdownOpen && <AccountDropdown />}

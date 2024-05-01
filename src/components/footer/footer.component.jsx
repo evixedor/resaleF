@@ -1,3 +1,7 @@
+import { ReactComponent as IgLogo } from "../../assets/instagram.svg";
+import { ReactComponent as FbLogo } from "../../assets/facebook.svg";
+import { ReactComponent as ScLogo } from "../../assets/snapchat.svg";
+
 import {
 	InternationalSites,
 	FooterContainer,
@@ -16,43 +20,60 @@ const Footer = () => {
 		<div className="footer">
 			<FooterContainer>
 				<LinkGroupContainer>
+
           <IconBar>
+
             <ul className="social-links">
-              <li className="social-link">
+
+              <li className="">
+
                 <a
                   className=""
                   href="https://www.facebook.com/ASOS/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  data-testid="social-link"
+                  
                 >
-                  <span className="">Facebook</span>
+                  <FbLogo />
+                  
                 </a>
+
               </li>
-              <li className="social-link">
+
+              <li className="">
+
                 <a
                   className=""
                   href="https://www.instagram.com/asos/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  data-testid="social-link"
+                  
                 >
-                  <span className="">Instagram</span>
+                  <IgLogo/>
+                  
                 </a>
+
               </li>
-              <li className="social-link">
+
+              <li className="">
+
                 <a
                   className=""
                   href="https://www.snapchat.com/add/asosfashion"
                   target="_blank"
                   rel="noopener noreferrer"
-                  data-testid="social-link"
+                  
                 >
-                  <span className="">Snapchat</span>
+                  <ScLogo/>
+                  
                 </a>
+
               </li>
+
             </ul>
+
             <ul className="payment-types">
+
               <li className="payment-type">
                 <img
                   src="https://images.asos-media.com/navigation/visa-png"
@@ -96,9 +117,12 @@ const Footer = () => {
                 />
               </li>
             </ul>
+            
           </IconBar>
+
           <HelpLinksContainer>
             <HelpLinksGroup>
+
               <section className="help-links">
                 <h3 className="header">Help &amp; Information</h3>
                 <ul>
@@ -131,7 +155,7 @@ const Footer = () => {
                       className="help-link"
                       href="https://www.asos.com/customer-service/premier-delivery/"
                     >
-                      ASOS Premier
+                      Resale Fortuune Premier
                     </a>
                   </li>
                   <li>
@@ -152,8 +176,9 @@ const Footer = () => {
                   </li>
                 </ul>
               </section>
+
               <section className="help-links">
-                <h3 className="header">About ASOS</h3>
+                <h3 className="header">About Resale Fortuune</h3>
                 <ul>
                   <li>
                     <a
@@ -169,7 +194,7 @@ const Footer = () => {
                       href="https://asoscareers.asos.com/"
                       target="_blank"
                     >
-                      Careers at ASOS
+                      Careers at Resale Fortuune
                     </a>
                   </li>
                   <li>
@@ -200,15 +225,16 @@ const Footer = () => {
                   </li>
                 </ul>
               </section>
+
               <section className="help-links">
-                <h3 className="header">More From ASOS</h3>
+                <h3 className="header">More From Resale Fortuune</h3>
                 <ul>
                   <li>
                     <a
                       className="help-link"
                       href="https://www.asos.com/discover/our-apps/"
                     >
-                      Mobile and ASOS apps
+                      Mobile and RF apps
                     </a>
                   </li>
                   <li>
@@ -217,7 +243,7 @@ const Footer = () => {
                       href="https://marketplace.asos.com/?ctaref=Global+footer"
                       target="_blank"
                     >
-                      ASOS Marketplace
+                      RF Marketplace
                     </a>
                   </li>
                   <li>
@@ -242,7 +268,7 @@ const Footer = () => {
                       href="https://thrift.plus/pages/get-started-asos"
                       target="_blank"
                     >
-                      ASOS x Thrift+
+                      RF x Thrift+
                     </a>
                   </li>
                   <li>
@@ -266,7 +292,7 @@ const Footer = () => {
                       className="help-link"
                       href="https://www.asos.com/discover/asos-credit-card"
                     >
-                      Discover the ASOS Credit Card
+                      Discover the RF Credit Card
                     </a>
                   </li>
                   <li>
@@ -275,15 +301,18 @@ const Footer = () => {
                       href="https://asos.uservoice.com/forums/923293"
                       target="_blank"
                     >
-                      Help Improve the ASOS Website
+                      Help Improve the RF Website
                     </a>
                   </li>
                 </ul>
               </section>
+
               <LocationContainer>
+
                 <h3 className="country-location" hidden>
                   Shopping from:
                 </h3>
+
                 <CountrySelector>
                   <Button>
                     <span className="location-text">You're in</span>
@@ -298,6 +327,7 @@ const Footer = () => {
                     </div>
                   </Button>
                 </CountrySelector>
+
                 <InternationalSites>
                   <p id="chrome-sites">Some of our international sites:</p>
                   <ul aria-labelledby="chrome-sites">
@@ -393,11 +423,16 @@ const Footer = () => {
                     </li>
                   </ul>
                 </InternationalSites>
+
               </LocationContainer>
+
             </HelpLinksGroup>
           </HelpLinksContainer>
+
 				</LinkGroupContainer>
+
 				<LegalBar>
+
 					<div className="legalBar">
             <p className="copyright">© 2024 RESALE FORTUUNE</p>
             <ul className="legalLinks">
@@ -415,7 +450,9 @@ const Footer = () => {
             </ul>
             
           </div>
+
 				</LegalBar>
+
 			</FooterContainer>
 		</div>
 	);

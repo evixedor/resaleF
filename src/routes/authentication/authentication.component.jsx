@@ -7,8 +7,12 @@ import Footer from '../../components/footer/footer.component';
 const Authentication = () => {
   return (
     <AuthenticationContainer>
-      <SignInForm />
-      <SignUpForm />
+      <div className='_bb'>
+        <SignInForm  />
+      </div>
+      <div className='_bc'>
+        <SignUpForm  />
+      </div>
       <Footer />
 
     </AuthenticationContainer>

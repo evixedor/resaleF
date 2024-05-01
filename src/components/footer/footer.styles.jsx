@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 export const FooterContainer = styled.div`
   clear: both;
   display: block;
+  width: 100%;
 
 `;
 
@@ -20,8 +21,16 @@ export const IconBar = styled.div`
   width: 100%;
 
   .social-links {
-    height: 60px;
+    height: 30px;
     vertical-align: top;
+    display: inline-flex ;
+
+    svg {
+      width: 30px;
+      height: 30px;
+      padding: 0 0 0 50px;
+      
+    }
   }
 
   .payment-types {
