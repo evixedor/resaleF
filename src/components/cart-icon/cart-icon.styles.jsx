@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const CartIconContainer = styled.div`
   width: 45px;
-  height: 45px;
+  height: 62px;
   position: relative;
   display: flex;
   align-items: center;
@@ -10,8 +10,8 @@ export const CartIconContainer = styled.div`
   cursor: pointer;
 
   svg {
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
   }
 `;
 

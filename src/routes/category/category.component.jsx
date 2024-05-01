@@ -7,6 +7,8 @@ import { CategoriesContext } from "../../contexts/categories.context";
 import ProductCard from "../../components/product-card/product-card.component";
 import Spinner from "../../components/spinner/spinner.component";
 import { CategoryContainer, Title } from "./category.styles";
+import Footer from '../../components/footer/footer.component';
+
 
 const GET_CATEGORY = gql`
   query ($title: String) {
@@ -67,6 +69,8 @@ const Category = () => {
 					</CategoryContainer>
 				</Fragment>
 			)}
+			<Footer />
+
 		</Fragment>
 	);
 };
